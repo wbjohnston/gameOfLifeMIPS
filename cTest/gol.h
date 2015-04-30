@@ -58,7 +58,7 @@ void gen_dump(Generation g);
  * @param g: generation to advance
  * @return: void
  */
-void gen_advance(Generation g);
+void gen_advance(Generation* g);
 
 /*
  * populate the map of a generation. typically done on the first generation
